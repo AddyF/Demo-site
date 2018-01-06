@@ -1,0 +1,64 @@
+body{
+  background-image: url(background_filler.jpg);
+}
+
+button.button_topshelf {
+  background-color: rgb(109, 108, 108);
+  opacity: 0.5;
+  padding: 0ps;
+  border: none;
+  outline: none;
+  width: 10%;
+  height: 50%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+button.button_topshelf:hover {
+  background-color: green;
+  opacity: 1;
+}
+
+.box {
+  opacity: 0.7;
+  background-color: rgb(142, 226, 7);
+  width: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -1px 0 orangered, 0 1px orangered, 1px 0 orangered, 0 -1px orangered;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.greentext {
+  color: green;
+}
+
+.goldtext {
+  color: darkgoldenrod;
+}
+
+h2 {
+  border: 1px black;
+  font-weight: bold;
+  font-size: 1.75em;
+  color: #666666;
+}
+
+.footer {
+    text-align: center;
+    background-color: #FFF;
+    padding: 14px 15px 10px;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+.url1 {
+  float: left;
+  display: inline;
+  padding-right: 100px;
+}
