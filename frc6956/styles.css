@@ -2,10 +2,28 @@ body{
   background-image: url(background_filler.jpg);
 }
 
+.box {
+  opacity: 0.7;
+  background-color: rgb(142, 226, 7);
+  width: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -1px 0 orangered, 0 1px orangered, 1px 0 orangered, 0 -1px orangered;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.boxed {
+  
+}
+
 button.button_topshelf {
   background-color: rgb(109, 108, 108);
   opacity: 0.5;
-  padding: 0ps;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: none;
   outline: none;
   width: 10%;
@@ -20,17 +38,18 @@ button.button_topshelf:hover {
   opacity: 1;
 }
 
-.box {
-  opacity: 0.7;
-  background-color: rgb(142, 226, 7);
-  width: 50%;
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: -1px 0 orangered, 0 1px orangered, 1px 0 orangered, 0 -1px orangered;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+
+.footer {
+    text-align: center;
+    background-color: #FFF;
+    padding: 14px 15px 10px;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
 }
 
 .greentext {
@@ -48,17 +67,24 @@ h2 {
   color: #666666;
 }
 
-.footer {
-    text-align: center;
-    background-color: #FFF;
-    padding: 14px 15px 10px;
-    height: 80px;
-    width: 100%;
-    margin-bottom: 0;
-    box-sizing: border-box;
+.socialmedia {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 5px;
+    display: inline;
+    opacity: 1;
+    padding: 0px;
 }
+
 .url1 {
   float: left;
   display: inline;
   padding-right: 100px;
+}
+
+.url {
+  padding-right: 200px;
+  float: right;
+  display: inline;
 }
